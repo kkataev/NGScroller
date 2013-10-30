@@ -2,8 +2,6 @@
   "name": "sb-tran",
   "description": "Swingbyte strings translator",
   "version": "0.1.0",
-  "src": "./src/",
-  "public": "./public/",
   "main": "./server.coffee",
   "homepage": "sb-tran.herokuapp.com",
   "author": {
@@ -24,10 +22,20 @@
     }
   ],
   "dependencies": {
-      "express": "~3.0.0",
-      "grunt": "~0.3.12",
-      "grunt-hustler": "~0.5.5",
-      "grunt-less": "0.1.5"
+    "coffee-script": "~1.6.3",
+    "express": "~3.4.1",
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-contrib-connect": "~0.5.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-imagemin": "~0.3.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-karma": "~0.7.0",
+    "grunt-hustler": "~0.11.2",
+    "grunt-contrib-less": "~0.5.2",
+    "grunt-coffeelint": "0.0.7",
+    "grunt-contrib-jshint": "~0.6.4"
   },
   "engine": "server >= 0.8.1",
   "engines": {
@@ -37,7 +45,7 @@
     "test": "grunt test"
   },
   "devDependencies": {
-    "grunt": "~0.3.17"
+    "grunt": "~0.4.1"
   },
   "keywords": []
 }
